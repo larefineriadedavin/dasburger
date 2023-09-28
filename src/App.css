@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    height: 72px;
+    background-color: blue;
+    align-items: center;
+}
+
+.nav--logo {
+    font-family: 'Rubik Mono One', sans-serif;
+    margin: 0;
+    padding-left: 50px;
+    color: #282208;
+    text-align: center;
+    font-size: 2.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.nav--menu {
+    display: flex;
+    list-style: none;    
+}
+
+.nav--menu > li {
+    padding: 10px;
+}
