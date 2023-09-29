@@ -8,7 +8,7 @@ export default function Navbar() {
                 <li>Acerca De</li>
                 <li>Contacto</li>
             </ul>
-            <a>Ordenar</a>
+            <a href="#" className="nav--btn">Ordenar</a>
         </nav>
     )
 }
