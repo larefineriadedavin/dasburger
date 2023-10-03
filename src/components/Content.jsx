@@ -12,17 +12,17 @@ export default function Content() {
             <div className="menu">
                 <div className='menu--card'>
                     <img></img>
-                    <h3></h3>
+                    <h3 className="menu--title">HAMBURGUESA CLASICA</h3>
                     <p></p>
                 </div>
                 <div className='menu--card'>
                     <img></img>
-                    <h3></h3>
+                    <h3 className="menu--title">PAPAS A LA FRANCESA</h3>
                     <p></p>
                 </div>
                 <div className='menu--card'>
                     <img></img>
-                    <h3></h3>
+                    <h3 className="menu--title">PERRO COMPLETO</h3>
                     <p></p>
                 </div>
             </div>

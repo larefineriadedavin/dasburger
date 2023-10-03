@@ -126,7 +126,6 @@ nav {
     display: flex;
     padding-top: 102px;
     margin-left: 167px;
-    width: 100%;
     list-style: none;
     color: #3F2305;
     font-family: 'Jost', sans-serif; 
@@ -143,15 +142,23 @@ nav {
 }
 
 .menu {
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     padding-top: 80px;
 }
 
 .menu--card {
-    background-image: url('/src/assets/images/frame.png');
+    position: relative;
+    background-image: url('/src/assets/images/pexels-valeria-boltneva-1639562.jpg');
+    background-size: cover;
+    background-position: right;
+    font-family: 'Jost', sans-serif;
     width: 360px;
     height: 360px;
     border-radius: 20px;
+}
+
+.menu--title {
+    position: absolute;
+    top: 350px;
 }
