@@ -160,5 +160,42 @@ nav {
 
 .menu--title {
     position: absolute;
-    top: 350px;
+    top: 390px;
+    color: #3F2305;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.menu--text {
+    position: absolute;
+    top: 430px;
+    font-family: 'Jost', sans-serif;
+    color: #3F2305;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*********************/
+
+.add {
+    width: 100%;
+    height: 832px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.add--one {
+    background-color: #3F2305;
+}
+
+.add--two {
+    background-image: url("/src/assets/images/neil-soni-6wdRuK7bVTE-unsplash.jpg");
+    background-repeat: no-repeat;
+    
 }
