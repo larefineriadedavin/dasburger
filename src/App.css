@@ -183,19 +183,19 @@ nav {
 
 /*********************/
 
-.add {
+.ad {
     width: 100%;
     height: 832px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.add--one {
+.ad--one {
     background-color: #3F2305;
 }
 
-.add--two {
+/* .add--two {
     background-image: url("/src/assets/images/neil-soni-6wdRuK7bVTE-unsplash.jpg");
     background-repeat: no-repeat;
     
-}
+} */
