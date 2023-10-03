@@ -191,11 +191,19 @@ nav {
 }
 
 .ad--one {
+    position: relative;
     background-color: #3F2305;
 }
 
-/* .add--two {
-    background-image: url("/src/assets/images/neil-soni-6wdRuK7bVTE-unsplash.jpg");
-    background-repeat: no-repeat;
-    
-} */
+.ad--promo {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
