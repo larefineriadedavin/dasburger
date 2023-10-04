@@ -1,3 +1,5 @@
+// import myImage from "../assets/images/neil-soni-6wdRuK7bVTE-unsplash.jpg"
+
 export default function ContentAd() {
     return (
         <div className="ad">
