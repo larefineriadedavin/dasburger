@@ -200,10 +200,25 @@ nav {
     top: 100px;
     left: 50px;
     font-family: 'Jost', sans-serif;
-    color: white;
+    color: #E3DADA;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+}
+
+.ad--title {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 380px;
+    height: 204px;
+    font-family: 'Jost', sans-serif;
+    color: #E3DADA;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 95px; 
+
 }
