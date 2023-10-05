@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import ContentMenu from "./components/ContentMenu"
 import ContentAd from './components/ContentAd'
+import ContentSlider from './components/ContentSlider'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <ContentMenu />
       <ContentAd />
+      <ContentSlider />
     </div>
   )
 }
