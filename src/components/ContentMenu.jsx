@@ -1,7 +1,7 @@
 // import myImage from '../assets/images/frame.png'
 
 
-export default function Content() {
+export default function ContentMenu() {
     return (
         <section className="content">
             <ul className="content--menu">

@@ -4,7 +4,7 @@
 import './App.css'
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-import Content from "./components/Content"
+import ContentMenu from "./components/ContentMenu"
 import ContentAd from './components/ContentAd'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Content />
+      <ContentMenu />
       <ContentAd />
     </div>
   )
