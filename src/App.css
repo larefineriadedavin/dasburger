@@ -482,6 +482,18 @@ nav {
     border-radius: 20px;
 }
 
+.blog--read {
+    position: absolute;
+    padding-top: 437px; 
+    left: 1130px;
+    color: #3F2305;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 /**********************/
 
 .footer {
