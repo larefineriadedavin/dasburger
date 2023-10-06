@@ -100,7 +100,7 @@ nav {
 
 .hero--btn {
     position: absolute;
-    top: 400px;
+    top: 440px;
     width: 322px;
     height: 76px;
     background-color: #3F2305;
@@ -311,13 +311,13 @@ nav {
     position: absolute;
     width: 516px;
     left: 50px;
-    padding-top: 500px;
+    padding-top: 520px;
     color: #3F2305;
     font-family: 'Jost', sans-serif;
     font-size: 1.375em;
     font-style: normal;
     font-weight: 500;
-    line-height: 35px; 
+    line-height: 30px; 
     letter-spacing: 0.25px;
 }
 

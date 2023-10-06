@@ -11,7 +11,7 @@ export default function Blog() {
             <div className="card--blog">
                 <h3>GOOGLE MAPS</h3>
                 <p>Me gusta muchos las
-                hamburguesas de Dasburger
+                hamburguesas de ***burger
                 y el gran sabor de las papas
                 100% lo recomiendo.</p>
                 <img className="card--image"></img>

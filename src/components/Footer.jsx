@@ -7,7 +7,7 @@ export default function Footer() {
                     <span>Carreras</span>
                     <span>Inversiones</span>
                     <span>Locaciones</span>
-                    <span>Dasburger app</span>
+                    <span>***burger app</span>
                     <span>Covid-19</span>
                 </div>
                 <div className="footer--card">
@@ -32,7 +32,7 @@ export default function Footer() {
                     <span>Informacion Personal</span>
                     <span>Inclusion</span>
                 </div>
-                <div className="brand">© 2023 DASBURGER</div>
+                <div className="brand">© 2023 ***BURGER</div>
             </div>
         </div>
     )
