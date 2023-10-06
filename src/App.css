@@ -159,6 +159,26 @@ nav {
     height: 360px;
     border-radius: 20px;
 }
+.menu--card2 {
+    position: relative;
+    background-image: url('/src/assets/images/sahand-babali-R9eP-0I96qo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Jost', sans-serif;
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+}
+.menu--card3 {
+    position: relative;
+    background-image: url('/src/assets/images/david-todd-mccarty-Z2cAwmIKDxA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Jost', sans-serif;
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+}
 
 .menu--title {
     position: absolute;
