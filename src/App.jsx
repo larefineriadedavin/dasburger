@@ -8,6 +8,7 @@ import ContentMenu from "./components/ContentMenu"
 import ContentAd from './components/ContentAd'
 import ContentSlider from './components/ContentSlider'
 import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <ContentAd />
       <ContentSlider />
       <Blog />
+      <Footer />
     </div>
   )
 }
