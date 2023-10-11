@@ -65,17 +65,25 @@ nav {
 /*******************/
 
 .hero {
-    background-image: url("assets/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
-    background-size: cover;
     position: relative;
     width: 100%;
     height: 760px;
     background-color: #35372b;
 }
 
+.hero--image {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    background-image: url("assets/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
+    background-size: cover;
+    background-position: 100% 50%;
+}
+
 .hero--ad {
     position: absolute;
     top: 167px;
+    left: 50px;
     font-family: 'Jost', sans-serif;
     color: #E3DADA;
     font-size: 1.5em;
@@ -87,6 +95,7 @@ nav {
 .hero--title {
     position: absolute;
     top: 222px;
+    left: 50px;
     font-family: 'Rubik Mono One', sans-serif;
     width: 620px;
     color: #E3DADA;
@@ -101,6 +110,7 @@ nav {
 .hero--btn {
     position: absolute;
     top: 440px;
+    left: 50px;
     width: 322px;
     height: 76px;
     background-color: #3F2305;
