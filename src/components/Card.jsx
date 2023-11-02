@@ -1,5 +1,5 @@
 
-
+import PropTypes from 'prop-types';
 
 export default function Card(props) {
     return (
@@ -12,4 +12,9 @@ export default function Card(props) {
 }
 
 
-
+Card.propTypes = {
+    imageSrc: PropTypes.string.isRequired,
+    imageAlt: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+};
