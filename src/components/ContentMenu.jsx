@@ -13,7 +13,7 @@ export default function ContentMenu() {
                 title="el titulo"
                 text="sigue la conversacion"
                 imageAlt="is an image"
-                imageSrc="/public/cafe-arrow.svg"
+                // imageSrc="/public/images/ball-park-brand-Lntnns1YBEY-unsplash.jpg"
             />
         </section>
     )
