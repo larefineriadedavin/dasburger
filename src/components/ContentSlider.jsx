@@ -8,9 +8,7 @@ export default function ContentSlider() {
                 esta colección incluye la deliciosa limonada, brownies y todo tipo de postres para todos los gustos.</p>
             </div>
             <div className="content--slider2">
-                <div className="slider2--image">
-                    <img></img>
-                </div>             
+                <div className="slider2--image"></div>                            
             </div>
        </div> 
     )

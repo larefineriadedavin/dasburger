@@ -14,9 +14,7 @@ export default function ContentAd() {
                 FreePass, y gane recompensas, regalos de cumpleaños, menus exclusivos y mas.
                 </p>
             </div>
-            <div className="ad--two">
-                <img></img>
-            </div>
+            <div className="ad--two"></div>          
         </div>
     )
 }

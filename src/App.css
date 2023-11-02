@@ -271,7 +271,7 @@ nav {
 }
 
 .ad--two {
-    background-image: url("/src/assets/images/jonathan-borba-8WbeydChgQA-unsplash.jpg");
+    background-image: url("/public/images/jonathan-borba-8WbeydChgQA-unsplash.jpg");
     background-size: cover;
     background-position: right;
 }
@@ -336,7 +336,7 @@ nav {
 }
 
 .slider2--image {
-    background-image: url("../src/assets/images/francesca-hotchin-p5EiqkBYIEE-unsplash.jpg");
+    background-image: url("/public/images/francesca-hotchin-p5EiqkBYIEE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -436,7 +436,7 @@ nav {
     position: absolute;
     top: 36px;
     left: 280px;
-    background-image: url('./assets/images/mustafa-omar-RGtSTDmmcCk-unsplash.jpg');
+    background-image: url('/public/images/mustafa-omar-RGtSTDmmcCk-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -485,7 +485,7 @@ nav {
     position: absolute;
     top: 36px;
     left: 280px;
-    background-image: url('./assets/images/li-shanting-AGy0SxTzqr8-unsplash.jpg');
+    background-image: url("/public/images/li-shanting-AGy0SxTzqr8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
