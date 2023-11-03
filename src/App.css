@@ -177,6 +177,8 @@ nav {
     width: 360px;
     height: 360px;
     border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card-title {
