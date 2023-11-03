@@ -137,7 +137,7 @@ nav {
 .content--menu {
     display: flex;
     padding-top: 102px;
-    margin-left: 167px;
+    margin-left: 218px;
     list-style: none;
     color: #3F2305;
     font-family: 'Jost', sans-serif; 
@@ -154,22 +154,23 @@ nav {
 }
 
 .cards {
-    display: flex;
+    display: flex;    
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 130px;
     overflow-x: auto;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+    padding: 60px 50px; 
 }
 
-/* .cards::-webkit-scrollbar {
+.cards::-webkit-scrollbar {
     display: none;
-} */
+}
 
 .card {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    font-family: 'Jost', sans-serif;
 }
 
 .card-image{
@@ -179,7 +180,26 @@ nav {
 }
 
 .card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3F2305;
+    padding-top: 30px;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
 
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #3F2305;
+    padding-top: 11px;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /*********************/
