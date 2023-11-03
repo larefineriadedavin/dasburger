@@ -1,7 +1,19 @@
-
 import Card from "./Card"
+import datamenu from "../datamenu"
+
 
 export default function ContentMenu() {
+    const item = datamenu.map((newitem) => {
+        return (
+            <Card
+                key={newitem.id}
+                imageSrc={newitem.cardImage}
+                title={newitem.title}
+                text={newitem.text}
+            />
+        )
+    })
+
     return (
         <section className="content">
             <ul className="content--menu">
@@ -9,12 +21,9 @@ export default function ContentMenu() {
                 <li>PAPAS</li>
                 <li>PERROS CALIENTES</li>
             </ul>
-            <Card
-                title="el titulo"
-                text="sigue la conversacion"
-                imageAlt="is an image"
-                // imageSrc="/public/images/ball-park-brand-Lntnns1YBEY-unsplash.jpg"
-            />
+            <section className="cards">
+                {item}
+            </section>
         </section>
     )
 }
