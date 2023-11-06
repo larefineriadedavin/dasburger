@@ -1,0 +1,61 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 760px;
+    background-color: #35372b;
+}
+
+.hero--image {
+    position: absolute;
+    width: 100%;
+    height: 760px;
+    background-image: url("assets/images/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
+    background-size: cover;
+    background-position: 100% 50%;
+}
+
+.hero--ad {
+    position: absolute;
+    top: 167px;
+    left: 50px;
+    font-family: 'Jost', sans-serif;
+    color: #E3DADA;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero--title {
+    position: absolute;
+    top: 222px;
+    left: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 620px;
+    color: #E3DADA;
+    text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.50);
+    font-size: 3.75em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero--btn {
+    position: absolute;
+    top: 440px;
+    left: 50px;
+    width: 322px;
+    height: 76px;
+    background-color: #3F2305;
+    font-family: 'Jost', sans-serif;
+    color: #FFF;
+    border-radius: 50px;
+    padding: 12px;
+    text-align: center;
+    font-size: 2.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
