@@ -7,10 +7,7 @@ export default function ContentMenu() {
         return (
             <Card
                 key={newitem.id}
-                imageSrc={newitem.cardImage}
-                imageAlt={newitem.imageAlt}
-                title={newitem.title}
-                text={newitem.text}
+                newitem={newitem}
             />
         )
     })
