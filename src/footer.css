@@ -1,0 +1,24 @@
+
+.footer {
+    width: 100%;
+    height: 266px;
+    background-color: #BEC899;
+      
+}
+
+.footer--title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    font-family: 'Jost', sans-serif;
+    color: #3F2305; 
+    padding: 58px 0px 0px 50px;
+}
+
+.footer--card {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    padding-left: 200px;
+}

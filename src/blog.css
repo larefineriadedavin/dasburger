@@ -1,0 +1,153 @@
+
+.blog {
+    background-color: #CED6AB;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.blog--title {
+    display: flex;
+    position: relative;
+}
+
+.blog--title > h3 {
+    font-family: 'Jost', sans-serif;
+    color: #3F2305;
+    position: absolute;
+    width: 194px;
+    height: 58px;
+    left: 50px;
+    padding-top: 50px;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.r--arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1200px;
+}
+
+.l--arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 1120px;
+}
+
+.card--blog {
+    position: relative;
+    width: 500px;
+    height: 262px;
+    background-color: #E3DADA;
+    margin-left: 50px;
+    margin-top: 148px;
+    border-radius: 20px;
+}
+
+.card--blog > h3 {
+    position: absolute;
+    top: 36px;
+    left: 31px;
+    font-family: 'Inter', sans-serif;
+    color: #3F2305;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card--blog > p {
+    position: absolute;
+    top: 85px;
+    left: 31px;
+    font-family: 'Hahmlet', serif;
+    color: #3F2305;
+    width: 224px;
+    height: 80px;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.card--image {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 36px;
+    left: 280px;
+    background-image: url('/public/images/mustafa-omar-RGtSTDmmcCk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.card--blog2 {
+    position: relative;
+    width: 500px;
+    height: 262px;
+    background-color: #E3DADA;
+    margin-left: 50px;
+    margin-top: 148px;
+    border-radius: 20px;
+}
+
+.card--blog2 > h3 {
+    position: absolute;
+    top: 36px;
+    left: 31px;
+    font-family: 'Inter', sans-serif;
+    color: #3F2305;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card--blog2 > p {
+    position: absolute;
+    top: 85px;
+    left: 31px;
+    font-family: 'Hahmlet', serif;
+    color: #3F2305;
+    width: 224px;
+    height: 80px;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.card--image2 {
+    width: 190px;
+    height: 190px;
+    position: absolute;
+    top: 36px;
+    left: 280px;
+    background-image: url("/public/images/li-shanting-AGy0SxTzqr8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.blog--read {
+    position: absolute;
+    padding-top: 437px; 
+    left: 1130px;
+    color: #3F2305;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
