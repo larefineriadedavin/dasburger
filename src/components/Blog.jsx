@@ -1,6 +1,16 @@
-
+import BlogCard from "./BlogCard"
+import datablog from "../datablog"
 
 export default function Blog() {
+    const review = datablog.map((newreview)=> {
+        return (
+            <BlogCard 
+                key={newreview.id}
+                {...newreview}
+            />
+        )
+    })
+
     return (
         <div className="blog">
             <div className="blog--title">
@@ -8,19 +18,10 @@ export default function Blog() {
                 <img src='right.svg' className="r--arrow"></img>
                 <img src='left.svg' className="l--arrow"></img>
             </div>
-            <div className="card--blog">
-                <h3>GOOGLE MAPS</h3>
-                <p>Me gusta muchos las
-                hamburguesas de Dasburger
-                y el gran sabor de las papas
-                100% lo recomiendo.</p>
-                <img className="card--image"></img>
+            <div className="blog--cards">
+                {review}
             </div>
-            <div className="card--blog2">
-                <h3>RAPPI</h3>
-                <p>Una vez vine con mi mejor amiga, de verdad que el sitio era de su agrado, siempre me lo recomendó, ahora veo porque le gustaba tanto.</p>
-                <img className="card--image2"></img>
-            </div>
+            
             <h3 className="blog--read">LEER MAS</h3>
         </div>
     )

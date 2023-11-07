@@ -42,6 +42,15 @@
     left: 1120px;
 }
 
+.blog--cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
 .card--blog {
     position: relative;
     width: 500px;
@@ -84,11 +93,6 @@
     position: absolute;
     top: 36px;
     left: 280px;
-    background-image: url('/images/mustafa-omar-RGtSTDmmcCk-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
 }
 
 .card--blog2 {
@@ -133,7 +137,7 @@
     position: absolute;
     top: 36px;
     left: 280px;
-    background-image: url("/images/li-shanting-AGy0SxTzqr8-unsplash.jpg");
+    background-image: url("/images/");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
