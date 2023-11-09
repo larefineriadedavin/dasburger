@@ -1,7 +1,6 @@
 import Card from "./Card"
 import datamenu from "../datamenu"
 
-
 export default function ContentMenu() {
     const item = datamenu.map((newitem) => {
         return (

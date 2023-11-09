@@ -1,12 +1,12 @@
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'; 
 
 
 export default function BlogCard(props) {
     return (
         <div className="card--blog">
-            <h3>{props.web}</h3>
-            <p>{props.comment}</p>
-            <img src={`/images/${props.userImage}`} className="card--image"/>
+            <h3 className="card--blog--title">{props.web}</h3>
+            <p className="card--blog--text">{props.comment}</p>
+            <img src={`/images/${props.userImage}`} className="card--blog--image"/>
         </div>
     )
 } 

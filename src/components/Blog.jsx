@@ -13,15 +13,14 @@ export default function Blog() {
 
     return (
         <div className="blog">
-            <div className="blog--title">
-                <h3>LO ÚLTIMO</h3>
+            <section>        
+                <h3 className="blog--title">LO ÚLTIMO</h3>
                 <img src='right.svg' className="r--arrow"></img>
                 <img src='left.svg' className="l--arrow"></img>
-            </div>
-            <div className="blog--cards">
+            </section>           
+            <section className="blog--cards">
                 {review}
-            </div>
-            
+            </section>            
             <h3 className="blog--read">LEER MAS</h3>
         </div>
     )

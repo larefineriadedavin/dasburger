@@ -18,4 +18,10 @@ export default [
         comment: "Me gusta muchos las hamburguesas de Dasburger y el gran sabor de las papas 100% lo recomiendo.",
         userImage: "mustafa-omar-RGtSTDmmcCk-unsplash.jpg"
     },
+    {   
+        id: 4,
+        web: "GOOGLE MAPS",
+        comment: "Me gusta muchos las hamburguesas de Dasburger y el gran sabor de las papas 100% lo recomiendo.",
+        userImage: "mustafa-omar-RGtSTDmmcCk-unsplash.jpg"
+    },
 ]
